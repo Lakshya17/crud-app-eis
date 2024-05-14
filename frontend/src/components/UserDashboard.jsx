@@ -339,7 +339,7 @@ const UserDashboard = () => {
                                     {
                                         headerGroup.headers.map((column) => {
                                             // console.log(column)
-                                            return <Th {...column.getHeaderProps(column.getSortByToggleProps())}>{column.render("Header")}</Th>
+                                            return <Th py={'3'} {...column.getHeaderProps(column.getSortByToggleProps())}>{column.render("Header")}</Th>
                                         })
                                     }
                                 </Tr>
